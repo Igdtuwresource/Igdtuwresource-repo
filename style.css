@@ -2,8 +2,8 @@
 
 :root{
     --main-color:#d3ad7f;
-    --black:#d2d2df;
-    --bg:#4f4f52;
+    --black:black;
+    --bg:#c6d4d2;
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -92,7 +92,7 @@ section{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
-    color:#fff;
+    color:white;;
 }
 
 .header .navbar a:hover{
@@ -351,7 +351,9 @@ section{
     color:#fff;
     font-size: 2.5rem;
 }
-
+.not{
+    color:rgb(193, 96, 96);
+}
 .products .box-container .box .content .stars{
     padding: 1.5rem;
 }
@@ -387,7 +389,7 @@ section{
 .review .box-container .box p{
     font-size: 1.5rem;
     line-height: 1.8;
-    color:#ccc;
+    color:black;
     padding:2rem 0;
     text-decoration:none;
 }
@@ -407,7 +409,7 @@ section{
 
 .review .box-container .box .stars i{
     font-size: 1.5rem;
-    color:var(--main-color);
+    color:rgb(243, 201, 15);
 }
 
 .contact .row{
