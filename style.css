@@ -16,7 +16,7 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
-.log{
+.ex{
     height: 40px;
     width:40px;
 }
@@ -206,6 +206,7 @@ section{
 }
 .job{
     color:rgb(58, 53, 53);
+    font-size:35px;
 }
 
 .header .cart-items-container .btn{
