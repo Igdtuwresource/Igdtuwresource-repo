@@ -3,8 +3,8 @@
 :root{
     --main-color:#d3ad7f;
     --black:black;
-    --bg:#8c8a8b;
-    --border:.1rem solid rgba(192, 45, 45, 0.3);
+    --bg:#989798;
+    --border:.1rem solid rgba(137, 28, 28, 0.3);
 }
 
 *{
