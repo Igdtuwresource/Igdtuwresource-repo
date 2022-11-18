@@ -3,7 +3,7 @@
 :root{
     --main-color:#d3ad7f;
     --black:black;
-    --bg:#d3cbc8;
+    --bg:#8c8a8b;
     --border:.1rem solid rgba(192, 45, 45, 0.3);
 }
 
@@ -54,7 +54,7 @@ section{
     text-align: center;
     color:#fff;
     text-transform: uppercase;
-    padding-bottom: 3.5rem;
+    padding-bottom: 1.5rem;
     font-size: 4rem;
 }
 
@@ -71,7 +71,7 @@ section{
     color:rgb(45, 43, 43);
     background: var(--main-color);
     cursor: pointer;
-    
+    border-radius: 5px;
 }
 
 .btn:hover{
@@ -91,7 +91,7 @@ section{
 }
 
 .header .logo img{
-    height: 6rem;
+    height: 4rem;
 }
 
 .header .navbar a{
@@ -145,7 +145,7 @@ section{
     min-height: 60vh;
     display: flex;
     align-items: center;
-    background:url(https://i0.wp.com/pureinfotech.com/wp-content/uploads/2013/03/beauty-books-theme-780_wide.png?w=780&quality=78&strip=all&ssl=1) no-repeat;
+    background:url(https://t4.ftcdn.net/jpg/03/17/30/13/240_F_317301353_rY0Z8piZ1uhjQoYIVvgFYq4T1eFNyeMg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
