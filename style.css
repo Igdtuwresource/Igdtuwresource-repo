@@ -560,7 +560,12 @@ display:none;
 
 
 
-
+h5{
+    margin-left:30px;
+    margin-top:10px;
+    color:white;
+    display:none;
+}
 
 /* media queries  */
 @media (max-width:991px){
@@ -728,7 +733,7 @@ display:none;
       .btns{
         margin-top:0px;
         margin-bottom:10px;
-margin-right:10px;
+margin-right:20px;
       }
       .home{
         min-height: 50vh;
@@ -737,6 +742,9 @@ margin-right:10px;
         background:url(https://t4.ftcdn.net/jpg/03/17/30/13/240_F_317301353_rY0Z8piZ1uhjQoYIVvgFYq4T1eFNyeMg.jpg) no-repeat;
         background-size:cover;
         background-position: center;
+    }
+    h5{
+        display:inline;
     }
 }
 
