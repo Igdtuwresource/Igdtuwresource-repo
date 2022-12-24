@@ -74,7 +74,21 @@ section{
     cursor: pointer;
     border-radius: 5px;
 }
-
+.btns{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:rgb(45, 43, 43);
+    background: var(--main-color);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left:30px;
+}
+.btns:hover{
+    letter-spacing: .2rem;
+    color:black;
+}
 .btn:hover{
     letter-spacing: .2rem;
 }
@@ -146,7 +160,7 @@ section{
     display: flex;
     align-items: center;
     background:url(https://t4.ftcdn.net/jpg/03/17/30/13/240_F_317301353_rY0Z8piZ1uhjQoYIVvgFYq4T1eFNyeMg.jpg) no-repeat;
-    background-size: cover;
+    background-size:contain;
     background-position: center;
 }
 
@@ -155,10 +169,13 @@ section{
 }
 
 .home .content h3{
-    font-size: 6rem;
+    font-size: 5rem;
     text-transform: uppercase;
     color:#fff;
+    margin-top:50px;
+    margin-left:30px;
 }
+
 
 .home .content p{
     font-size: 2rem;
@@ -597,6 +614,7 @@ display:none;
         background-position: left;
         justify-content: center;
         text-align: center;
+        
     }
 
     .home .content h3{
@@ -700,6 +718,26 @@ display:none;
       .momo{
         display:none;
       }
+      .example{
+        display:none;
+      }
+      .content h3{
+        margin-top:20px;
+        
+      }
+      .btns{
+        margin-top:0px;
+        margin-bottom:20px;
+
+      }
+      .home{
+        min-height: 40vh;
+        display: flex;
+        align-items: center;
+        background:url(https://t4.ftcdn.net/jpg/03/17/30/13/240_F_317301353_rY0Z8piZ1uhjQoYIVvgFYq4T1eFNyeMg.jpg) no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
 }
 
 @media (max-width:450px){
@@ -712,3 +750,33 @@ display:none;
 .bot{
     color:white;
 }
+.example {
+    background-color: #333;
+    overflow: hidden;
+    position:fixed;
+    top:70px;
+    width:85.2%;
+    margin-left:6px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .example a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .example a:hover {
+    background-color: #496158;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .example a.active {
+    background-color: #496158;
+    color: white;
+  }
