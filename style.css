@@ -727,11 +727,11 @@ display:none;
       }
       .btns{
         margin-top:0px;
-        margin-bottom:20px;
+        margin-bottom:10px;
 
       }
       .home{
-        min-height: 40vh;
+        min-height: 50vh;
         display: flex;
         align-items: center;
         background:url(https://t4.ftcdn.net/jpg/03/17/30/13/240_F_317301353_rY0Z8piZ1uhjQoYIVvgFYq4T1eFNyeMg.jpg) no-repeat;
